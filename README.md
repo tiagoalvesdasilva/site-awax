@@ -1,1 +1,1 @@
-Esse site foi criado no curso de HTML5 e CSS3 do Bonieky Lacerda com o objetivo de fins estudantis.
+Esse site foi criado no curso de HTML5 e CSS3 da B7Web do Bonieky Lacerda com o objetivo de fins estudantis.
