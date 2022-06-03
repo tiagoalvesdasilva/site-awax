@@ -395,3 +395,55 @@ header{
 .section-team--social a:hover{
     background-color: #b28756;
 }
+
+.section-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.section-team--avatar{
+    width: 130px;
+    height: 100%;
+}
+.icone{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.name,
+.role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   
+}
+.desc{
+    margin-top: 30px;
+    width: 600px;
+    line-height: 25px;
+    color: rgb(134, 133, 133);
+}
+.sliders-pointers-client{
+    margin-top: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliders-pointers-client .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.sliders-pointers-client .pointer.active{
+    background-color: #b28756;
+}
