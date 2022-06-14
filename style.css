@@ -4,6 +4,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.section-body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 body{
     font-family: 'montserrat',Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -556,4 +560,94 @@ header{
 .premium-itens{
     display: flex;
     margin-bottom: 20px;
+}
+
+.section-itens{
+    color: #fff;
+    margin-right: 40px;
+}
+.section-facts{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 50px;
+}
+.item-number{
+    font-size: 45px;
+    font-weight: 550;
+    color: #b28756;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-facts div h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top:20px;
+    font-size: 18px;
+}
+.section-facts div p{
+    color: #999;
+    text-align: center;
+    
+}
+.line-facts{
+    border-bottom: 2px solid #b28756;
+    margin: auto;
+    width: 20px;
+}
+
+.section_social{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    
+}
+.social-redes{
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C9B99;
+ 
+}
+.social-twitter{
+    width: 30px;
+    height: auto;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.social-linkedin{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.social-pinte{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.social-face{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.social-google{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.social-item{
+    display: flex;
+}
+.social-p{
+    color: #9C9B99;
 }
