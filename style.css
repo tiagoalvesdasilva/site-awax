@@ -718,3 +718,65 @@ header{
     width: 15px;
     height: auto;
 }
+
+.footer-itens{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 70px;
+}
+.footer-itens--item{
+    margin-right: 10px;
+    background-color: #333333;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: -170px;
+
+}
+.footer-itens--item:hover{
+    background-color: #b28756;
+}
+.footer-img{
+    height: 8px;
+}
+.section-item{
+    color: white;
+    background-color: #333333;
+    height: 170px;
+    width: 370px;
+    padding: 20px;
+    text-align: center;  
+    margin-top: -30px;
+    
+
+}
+.section-lorem{
+    color: white;
+    width: 370px;
+    color: #999;
+    margin-right: -130px;
+    margin-top: -30px;
+    height: 160px;
+    font-size: 14px;
+    line-height: 19px;
+}
+.section-footer{
+    display: flex;
+
+}
+.footer-email{
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.footer-borda{
+    border-bottom: 1px solid #CCCCCC;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
