@@ -29,6 +29,9 @@ header{
 .logo{
     width: 100px;
 }
+.menu-opener{
+    display: none;
+}
 .menu{
     flex: 1;
     display: flex;
@@ -779,4 +782,80 @@ header{
     display: flex;
     justify-content: space-around;
     flex: 1;
+}
+
+@media (min-width:450px) and (max-width:800px) {
+    .logo{
+        margin-left: 30px;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(1000vw - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu-opener{
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+
+    }
+    .menu li.active a {
+        border: 0;
+        color: #b28756;
+    }
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right{
+        width: auto;
+    }
+    .section-sevices{
+        flex-wrap: wrap;
+    }
+    .section-sevice{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+    .section-team{
+        max-width: 580px;
+    }
+    .section_empresas{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .empresa{
+        margin-top: 30px;
+        width: 150px;
+    }
+}
+.scrollbutton img{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #333;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+    cursor: pointer;
 }
